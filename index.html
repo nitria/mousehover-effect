@@ -1,0 +1,23 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>mousehover effect</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="opacity">
+	<div id="mouse">
+	</div>
+</div>
+<script type="text/javascript">
+ var cursor = document.getElementById('mouse');
+ document.addEventListener('mousemove', function(h) {
+	var x = h.clientX;
+	var y = h.clientY;
+	mouse.style.left = x + "px";
+	mouse.style.top = y + "px"; 
+ })
+</script>
+</body>
+</html>
